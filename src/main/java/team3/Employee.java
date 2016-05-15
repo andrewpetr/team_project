@@ -6,14 +6,16 @@ public class Employee {
 	String position;
 	String phone;
 	int salary;
+	String id;
 
-	public Employee(String name, String lastname, String position, String salary, String phone) {
-		int salaryConvertedToInteger = Integer.parseInt(salary);
+	public Employee() {
+		int salaryConvertedToInteger = Integer.parseInt(String.valueOf(salary));
 		this.name = name;
 		this.lastname = lastname;
 		this.position = position;
 		this.salary = salaryConvertedToInteger;
 		this.phone = phone;
+		this.id=id;
 
 	}
 

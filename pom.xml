@@ -41,7 +41,15 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>team3.App</mainClass>
+					<mainClass>team3.Company</mainClass>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>

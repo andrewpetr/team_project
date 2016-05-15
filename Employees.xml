@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Employees>
  <Employee>
-    <EmpId>1</EmpId>
+    <Id>1</Id>
     <Firstname>Sam</Firstname>
 	<Lastname>Caner</Lastname>	
     <Position>Manager</Position>
@@ -9,15 +9,23 @@
     <Phone>424-555-0545</Phone>
  </Employee>
  <Employee>
-    <EmpId>2</EmpId>
+     <Id>2</Id>
     <Firstname>Lucy</Firstname>
 	<Lastname>Lane</Lastname>	
     <Position>Economist</Position>
-	<Salary>2500</Salary>
+	<Salary>2600</Salary>
     <Phone>434-555-0567</Phone>
  </Employee>
+    <Employee>
+        <Id>3</Id>
+        <Firstname>Brian</Firstname>
+        <Lastname>Austin</Lastname>
+        <Position>Economist</Position>
+        <Salary>2300</Salary>
+        <Phone>234-58-0567</Phone>
+    </Employee>
  <Employee>
-    <EmpId>3</EmpId>
+    <Id>4</Id>
     <Firstname>Kate</Firstname>
 	<Lastname>Stuart</Lastname>	
     <Position>Lawyer</Position>
@@ -25,8 +33,8 @@
     <Phone>233-555-0442</Phone>
  </Employee>
  <Employee>
-    <EmpId>4</EmpId>
-    <Firstname>Chris</Firstname>
+    <Id>5</Id>
+    <Firstname>Sam</Firstname>
 	<Lastname>Stanton</Lastname>	
     <Position>Assistant</Position>
 	<Salary>1000</Salary>

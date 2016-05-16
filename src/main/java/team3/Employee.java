@@ -8,17 +8,6 @@ public class Employee {
 	int salary;
 	String id;
 
-	public Employee() {
-		int salaryConvertedToInteger = Integer.parseInt(String.valueOf(salary));
-		this.name = name;
-		this.lastname = lastname;
-		this.position = position;
-		this.salary = salaryConvertedToInteger;
-		this.phone = phone;
-		this.id=id;
-
-	}
-
 	public String getLastname() {
 		return lastname;
 	}
@@ -57,11 +46,6 @@ public class Employee {
 
 	public void setSalary(int salary) {
 		this.salary = salary;
-	}
-
-	public String toString() {
-		return this.name + " " + this.lastname + " -- Position: " + this.position + " -- Salary: " + this.salary
-				+ " --Phone: " + this.phone;
 	}
 
 }
